@@ -1,0 +1,50 @@
+ body {
+    padding-top: 0px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: url("../images/spider-web-background.jpg");
+    background-size: cover;
+	  background-repeat: no-repeat;
+  }
+      .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      float: right;
+      background-color: #000000;
+    }
+    .sidenav {
+      padding: 10px;
+      margin: 0;
+      background-color: #323333;
+      height: 100%;
+      color: black;
+      float: right;
+    }
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 10px;
+      }
+      .row.content {height:auto;} 
+    }
+    .main {
+      background-color: #878B8C, opacity 50%;
+      color: white;
+      text-align: center;
+     }
+h3 {
+color: Black;
+}
+.spiderimg {
+	width: 175px;
+	margin: 10px;
+}
+#wins {
+  color: green;
+}
+#losses{
+  color: red;
+}
+.well {
+  padding: 2px;
+}
